@@ -1,0 +1,83 @@
+*~
+\#*\#
+
+*.map
+*.a.txt
+*.swp
+*.tmp
+*.d
+
+#Folders that can be ignored - build results, etc.
+buildresults/
+warpmaps/
+
+#Device tree build results
+tools/dtc/dtc
+tools/dtc/*.lex.c
+tools/dtc/*.tab.*
+tools/dtc/version_gen.h
+
+#Generated secret
+platform/rsm/include/new-shared-secret.h
+platform/rsm/include/shared-secret.h
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+*.macho
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.out
+*.hex
+*.bin
+
+# Python Compiled Bytecode  Files
+*.pyc
+
+# Tag files
+GPATH
+GRTAGS
+GTAGS
+
+# Cscope files
+cscope.out
+cscope.files
+
+# LZ4 binaries
+tools/lz4/programs/datagen
+tools/lz4/programs/frametest
+tools/lz4/programs/frametest32
+tools/lz4/programs/fullbench
+tools/lz4/programs/fullbench32
+tools/lz4/programs/fuzzer
+tools/lz4/programs/fuzzer32
+tools/lz4/programs/lz4
+tools/lz4/programs/lz4c
+tools/lz4/programs/lz4c32
+
+#gdbinit
+.gdbinit
+
+#Xcode
+xcuserdata/
+xcshareddata/
+
+#mac
+.DS_Store

@@ -1,6 +1,10 @@
 #ifndef __MISC__H_
 #define __MISC__H_
 
+#include <vector>
+#include <string>
+#include <cstdlib>
+using namespace std;
 struct TreeNode {
 	int val;
 	TreeNode *left, *right;

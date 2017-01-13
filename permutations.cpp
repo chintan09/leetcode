@@ -22,5 +22,5 @@ int main()
 	vector<int> nums = { 1, 2, 3};
 	s.permute(nums);
 	
-	
+	return 0;
 }
